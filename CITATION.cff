@@ -30,9 +30,9 @@ authors:
       University of Oujda, Morocco
     orcid: "https://orcid.org/0000-0002-2458-2338"
 license: MIT
-# TODO: replace OWNER with the GitHub account that hosts the repository.
-license-url: https://github.com/OWNER/structural-break-detection-review/blob/main/LICENSE
-repository-code: https://github.com/OWNER/structural-break-detection-review
+
+license-url: https://github.com/DrMohamedNachat/structural-break-detection-review/blob/main/LICENSE-data
+https://github.com/DrMohamedNachat/structural-break-detection-review
 abstract: >-
   Code and derived data behind a bibliometric and systematic review of 9,111
   articles published between 2010 and 2025 on the detection of structural
@@ -63,6 +63,3 @@ preferred-citation:
     - family-names: El Melhaoui
       given-names: Said
   year: 2026
-  # TODO: fill in once the article is accepted.
-  journal: TBD
-  doi: TBD
