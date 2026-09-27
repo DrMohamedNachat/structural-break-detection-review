@@ -32,6 +32,13 @@ English-language articles, reviews and conference papers.
 Corpus B uses the same string with `AND NOT SUBJAREA ( ECON OR BUSI )` as last
 clause.
 
+> **Note on the parentheses.** As printed in Appendix A of the manuscript, and as
+> transcribed below, this string has eleven opening and twelve closing parentheses,
+> so Scopus rejects it as written. The structure the query intends is
+> `( (block 1) AND (block 2) ) AND PUBYEAR ...`, which needs a second opening
+> parenthesis at the very start. Add it before running the search. The Web of Science
+> string in A.2 is balanced and runs as it stands.
+
 ```
 ( TITLE ( "change point*" OR "changepoint*" OR "change-point*" OR "structural break*"
 OR "structural change*" OR "structural instabilit*" OR "parameter instabilit*" OR
