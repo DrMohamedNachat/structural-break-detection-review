@@ -1,0 +1,9 @@
+"citing_stratum","citing_corpus","cited_corpus","links","share"
+"T1 detection","A","A",4117,0.874
+"T1 detection","A","B",594,0.126
+"T1 detection","B","A",1098,0.567
+"T1 detection","B","B",839,0.433
+"T2 modelling","A","A",5290,0.888
+"T2 modelling","A","B",669,0.112
+"T2 modelling","B","A",1592,0.66
+"T2 modelling","B","B",819,0.34

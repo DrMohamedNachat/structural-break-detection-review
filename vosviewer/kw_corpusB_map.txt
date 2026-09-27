@@ -1,0 +1,262 @@
+id	label	weight	score<Avg. pub. year>
+1	structural break	298	2018.42
+2	regime switching	293	2018.64
+3	markov switching	191	2018.93
+4	economic growth	122	2019.95
+5	change point	110	2020.45
+6	volatility	66	2019.73
+7	financial development	65	2020.42
+8	cointegration	62	2018.16
+9	oil price	61	2020.07
+10	garch	57	2018.91
+11	covid-19	55	2022.49
+12	concept drift	53	2020
+13	co2 emissions	45	2019.67
+14	energy consumption	45	2019.76
+15	exchange rate	45	2018.29
+16	option pricing	43	2017.81
+17	time series	43	2018.98
+18	forecasting	42	2019.43
+19	ardl	40	2021.38
+20	unit root	39	2015.74
+21	stock market	34	2018.94
+22	financial crisis	33	2017.67
+23	cryptocurrency	32	2022.88
+24	stochastic volatility	32	2020.34
+25	business cycle	31	2017.87
+26	hidden markov model	29	2020.97
+27	machine learning	29	2022.79
+28	causality	27	2019.26
+29	gdp	27	2019.81
+30	financial time series	26	2020.04
+31	renewable energy	26	2020.92
+32	time series analysis	26	2021.46
+33	portfolio optimization	25	2019.72
+34	bitcoin	24	2022.71
+35	china	24	2021.25
+36	inflation	24	2019.08
+37	granger causality	23	2018
+38	long memory	23	2016.7
+39	deep learning	22	2023.55
+40	ms-garch	22	2021
+41	pakistan	21	2020.67
+42	asymmetry	20	2018.25
+43	copula	20	2018.4
+44	crude oil price	20	2019.05
+45	financial market	20	2020.1
+46	nonlinearity	20	2018.55
+47	stock return	20	2018.3
+48	crude oil	19	2020.11
+49	markov chain	19	2017.16
+50	clustering	18	2018.89
+51	credit risk	18	2019.11
+52	cusum	17	2018.06
+53	lstm	17	2024.06
+54	natural resources	17	2022.18
+55	neural network	17	2019.41
+56	quantile regression	17	2020.76
+57	realized volatility	17	2018.59
+58	volatility forecasting	17	2020
+59	svm	16	2018.19
+60	gold	15	2020.13
+61	india	15	2020.93
+62	risk management	15	2019.4
+63	stock price	15	2019.33
+64	carbon emissions	14	2020.71
+65	classification	14	2017.71
+66	interest rate	14	2019.07
+67	policy uncertainty	14	2021.21
+68	statistical process control	14	2018.71
+69	turkey	14	2019.57
+70	em algorithm	13	2020.46
+71	finance	13	2020.77
+72	foreign direct investment	13	2021.15
+73	markov chain monte carlo	13	2017.85
+74	stationarity	13	2019.92
+75	bayesian inference	12	2020.17
+76	dynamic programming	12	2020
+77	environmental kuznets curve	12	2019.67
+78	markov regime switching model	12	2017.67
+79	monetary policy	12	2017.83
+80	nardl	12	2021.75
+81	tourism	12	2019.75
+82	urbanization	12	2019.25
+83	algorithmic trading	11	2022.36
+84	mcmc	11	2017.82
+85	model selection	11	2019.82
+86	renewable energy consumption	11	2022.73
+87	stochastic interest rate	11	2019.73
+88	trade openness	11	2019.91
+89	bayesian	10	2017.5
+90	carbon neutrality	10	2022.1
+91	change point analysis	10	2019.7
+92	correlation	10	2019.8
+93	ekc hypothesis	10	2021
+94	growth	10	2016.6
+95	human capital	10	2020.6
+96	jump-diffusion	10	2019
+97	value-at-risk	10	2020.3
+98	arima	9	2022.33
+99	ekc	9	2018.11
+100	energy	9	2020.67
+101	filtering	9	2016.89
+102	fractional integration	9	2018.78
+103	hurst exponent	9	2019.33
+104	inflation rate	9	2021.44
+105	iran	9	2020.67
+106	nigeria	9	2021.89
+107	panel data	9	2021.78
+108	predictive models	9	2023.56
+109	smooth transition	9	2018.33
+110	time series forecasting	9	2021.33
+111	time series segmentation	9	2017.33
+112	usa	9	2019.22
+113	value at risk	9	2015.56
+114	anomaly detection	8	2021
+115	average run length	8	2019
+116	binary segmentation	8	2018.38
+117	carbon dioxide emissions	8	2020.88
+118	change-point analysis	8	2019.12
+119	commodity prices	8	2018.5
+120	convergence	8	2015.88
+121	credit default swap	8	2016.75
+122	data stream	8	2018.75
+123	environment	8	2020.62
+124	fdi	8	2018
+125	globalization	8	2018.5
+126	hedging	8	2019.5
+127	hidden markov chain	8	2018.62
+128	investment	8	2022.25
+129	kalman filter	8	2018.75
+130	market efficiency	8	2017.12
+131	maximum likelihood estimation	8	2018.88
+132	oil shocks	8	2019.25
+133	reinforcement learning	8	2023.12
+134	sustainability	8	2022.25
+135	systemic risk	8	2021.25
+136	uncertainty	8	2017.38
+137	agriculture	7	2018.57
+138	breakpoint	7	2018.71
+139	c22	7	2021.86
+140	change detection	7	2017.43
+141	commodity	7	2020.57
+142	commodity market	7	2021
+143	contagion	7	2019.71
+144	credit default swaps	7	2013.71
+145	electricity consumption	7	2020
+146	energy efficiency	7	2022
+147	energy use	7	2020.29
+148	ensemble learning	7	2023.43
+149	entropy	7	2021
+150	environmental degradation	7	2021
+151	environmental quality	7	2020.86
+152	esscher transform	7	2020.86
+153	geopolitical risk	7	2024
+154	icss	7	2017
+155	mean reversion	7	2016.29
+156	monte carlo simulation	7	2018
+157	nonlinear dynamics	7	2020.43
+158	online learning	7	2020.43
+159	optimal stopping	7	2015
+160	outliers	7	2020.71
+161	parameter estimation	7	2015.86
+162	portfolio management	7	2021.43
+163	random walk	7	2016.71
+164	regime shift	7	2020
+165	robustness	7	2018.43
+166	saudi arabia	7	2019.43
+167	segmentation	7	2013.71
+168	smoothing	7	2017.43
+169	sustainable development	7	2021.57
+170	technological innovation	7	2022.43
+171	vecm	7	2019.86
+172	active portfolio management	6	2020.83
+173	ardl model	6	2023.17
+174	artificial intelligence	6	2024
+175	asset allocation	6	2021.67
+176	bangladesh	6	2021.83
+177	cusum statistics	6	2017.5
+178	data models	6	2023.5
+179	dynamic conditional correlation	6	2018.5
+180	education	6	2020.17
+181	environmental pollution	6	2021.5
+182	european option	6	2021.17
+183	forecast	6	2019.67
+184	geometric brownian motion	6	2019.33
+185	gold price	6	2019.5
+186	heteroskedasticity	6	2015.5
+187	incremental learning	6	2020.83
+188	jump diffusion	6	2019.83
+189	macroeconomic indicators	6	2024.67
+190	malaysia	6	2019.83
+191	markov processes	6	2021.33
+192	ms-var model	6	2017.5
+193	msgarch	6	2022
+194	natural gas	6	2018.5
+195	persistence	6	2017.83
+196	ppp	6	2017
+197	precious metals	6	2021
+198	prediction	6	2019.33
+199	principal component analysis	6	2018.83
+200	seasonality	6	2020.5
+201	sentiment analysis	6	2024
+202	sequential analysis	6	2019.17
+203	south africa	6	2019
+204	var	6	2019
+205	vix	6	2021.67
+206	american option	5	2018.2
+207	asymmetric effect	5	2022.2
+208	asymmetric effects	5	2019.4
+209	bayesian analysis	5	2020
+210	bootstrap	5	2015.6
+211	bootstrap ardl	5	2021.8
+212	break date	5	2016.8
+213	chow test	5	2020.6
+214	computational finance	5	2019.6
+215	conditional volatility	5	2017.4
+216	consistency	5	2021.8
+217	copulas	5	2021
+218	crisis	5	2021.4
+219	cusum chart	5	2017.2
+220	data stream mining	5	2016.8
+221	drift detection	5	2020.8
+222	economic crisis	5	2020.2
+223	economic development	5	2022
+224	econophysics	5	2021.8
+225	energy intensity	5	2020.4
+226	environmental sustainability	5	2021.6
+227	error correction model	5	2017.6
+228	exchange rate volatility	5	2021.6
+229	financial data	5	2020
+230	financial time series forecasting	5	2024.4
+231	fossil fuels	5	2021.6
+232	free boundary problem	5	2018.6
+233	g11	5	2023.8
+234	genetic algorithm	5	2017.8
+235	geopolitical risks	5	2023.8
+236	hysteresis	5	2019.2
+237	income inequality	5	2021.4
+238	institutional quality	5	2021.6
+239	investment strategy	5	2019.4
+240	jump-diffusion process	5	2016
+241	jump-diffusion processes	5	2015.4
+242	laplace transform	5	2017.8
+243	maki cointegration	5	2022
+244	markov chains	5	2018.2
+245	markov process	5	2016
+246	mean-variance portfolio selection	5	2018.2
+247	monte carlo	5	2019.2
+248	multivariate garch	5	2019.4
+249	multivariate time series	5	2021.2
+250	natural gas consumption	5	2018.4
+251	pollution haven hypothesis	5	2020.6
+252	portfolio selection	5	2020.2
+253	real exchange rate	5	2020.2
+254	regime changes	5	2021.2
+255	spillover	5	2021.6
+256	threshold model	5	2020.8
+257	trade	5	2020
+258	unemployment	5	2016.4
+259	utility maximization	5	2016.6
+260	vasicek model	5	2018.2
+261	volatility spillover	5	2017.2

@@ -1,0 +1,9 @@
+"CORPUS","tier","revised","in_original","recall_of_original_search"
+"A","T1a_core_detection",3093,463,0.15
+"A","T1b_contextual_detection",402,6,0.015
+"A","T1c_cusum_stability_diag",48,0,0
+"A","T2_regime_switching_modelling",3033,931,0.307
+"B","T1a_core_detection",1160,8,0.007
+"B","T1b_contextual_detection",296,0,0
+"B","T1c_cusum_stability_diag",13,0,0
+"B","T2_regime_switching_modelling",1066,162,0.152

@@ -1,0 +1,48 @@
+# ---- Licensed bibliographic records: never commit these -----------------------
+# Raw Scopus and Web of Science exports, and the bibliometrix objects built from
+# them. They cannot be redistributed; see data/README.md.
+Wos_A_*.txt
+WoS_A_*.txt
+Wos_B_*.txt
+WoS_B_*.txt
+Scopus_A.csv
+Scopus_B.csv
+Scopus_*.csv
+*.rds
+merged_data.rds
+
+# Everything the pipeline writes. The curated copies live in data/, validation/,
+# vosviewer/ and results/.
+output/
+
+# ---- R ------------------------------------------------------------------------
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+sessionInfo.txt
+
+# ---- Python -------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Figures written next to the Python scripts when they are run in place
+python/*.png
+python/*.pdf
+
+# ---- Editors and operating systems --------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*~
+*.swp
+
+# ---- Office lock files --------------------------------------------------------
+~$*

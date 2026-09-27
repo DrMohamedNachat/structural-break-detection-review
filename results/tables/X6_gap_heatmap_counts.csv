@@ -1,0 +1,91 @@
+"family","domain","n","domain_total","share_of_domain_pct"
+"Classical break tests","Stock markets",262,1116,23.5
+"Segmentation algorithms","Stock markets",16,1116,1.4
+"Markov / regime switching","Stock markets",62,1116,5.6
+"Threshold / smooth transition","Stock markets",21,1116,1.9
+"Volatility models (GARCH/SV)","Stock markets",231,1116,20.7
+"Bayesian","Stock markets",42,1116,3.8
+"State-space / filtering","Stock markets",21,1116,1.9
+"Wavelet / frequency","Stock markets",25,1116,2.2
+"Nonparametric / kernel","Stock markets",47,1116,4.2
+"Machine / deep learning","Stock markets",52,1116,4.7
+"Classical break tests","Exchange rates",193,807,23.9
+"Segmentation algorithms","Exchange rates",4,807,0.5
+"Markov / regime switching","Exchange rates",35,807,4.3
+"Threshold / smooth transition","Exchange rates",13,807,1.6
+"Volatility models (GARCH/SV)","Exchange rates",92,807,11.4
+"Bayesian","Exchange rates",24,807,3
+"State-space / filtering","Exchange rates",8,807,1
+"Wavelet / frequency","Exchange rates",7,807,0.9
+"Nonparametric / kernel","Exchange rates",16,807,2
+"Machine / deep learning","Exchange rates",9,807,1.1
+"Classical break tests","Oil & commodities",149,734,20.3
+"Segmentation algorithms","Oil & commodities",3,734,0.4
+"Markov / regime switching","Oil & commodities",42,734,5.7
+"Threshold / smooth transition","Oil & commodities",11,734,1.5
+"Volatility models (GARCH/SV)","Oil & commodities",117,734,15.9
+"Bayesian","Oil & commodities",18,734,2.5
+"State-space / filtering","Oil & commodities",9,734,1.2
+"Wavelet / frequency","Oil & commodities",20,734,2.7
+"Nonparametric / kernel","Oil & commodities",14,734,1.9
+"Machine / deep learning","Oil & commodities",26,734,3.5
+"Classical break tests","Interest rates & bonds",129,550,23.5
+"Segmentation algorithms","Interest rates & bonds",3,550,0.5
+"Markov / regime switching","Interest rates & bonds",31,550,5.6
+"Threshold / smooth transition","Interest rates & bonds",10,550,1.8
+"Volatility models (GARCH/SV)","Interest rates & bonds",44,550,8
+"Bayesian","Interest rates & bonds",27,550,4.9
+"State-space / filtering","Interest rates & bonds",7,550,1.3
+"Wavelet / frequency","Interest rates & bonds",4,550,0.7
+"Nonparametric / kernel","Interest rates & bonds",15,550,2.7
+"Machine / deep learning","Interest rates & bonds",4,550,0.7
+"Classical break tests","Macro indicators",341,1570,21.7
+"Segmentation algorithms","Macro indicators",4,1570,0.3
+"Markov / regime switching","Macro indicators",68,1570,4.3
+"Threshold / smooth transition","Macro indicators",35,1570,2.2
+"Volatility models (GARCH/SV)","Macro indicators",62,1570,3.9
+"Bayesian","Macro indicators",78,1570,5
+"State-space / filtering","Macro indicators",34,1570,2.2
+"Wavelet / frequency","Macro indicators",25,1570,1.6
+"Nonparametric / kernel","Macro indicators",26,1570,1.7
+"Machine / deep learning","Macro indicators",26,1570,1.7
+"Classical break tests","Cryptocurrencies",28,141,19.9
+"Segmentation algorithms","Cryptocurrencies",4,141,2.8
+"Markov / regime switching","Cryptocurrencies",11,141,7.8
+"Threshold / smooth transition","Cryptocurrencies",1,141,0.7
+"Volatility models (GARCH/SV)","Cryptocurrencies",34,141,24.1
+"Bayesian","Cryptocurrencies",5,141,3.5
+"State-space / filtering","Cryptocurrencies",2,141,1.4
+"Wavelet / frequency","Cryptocurrencies",5,141,3.5
+"Nonparametric / kernel","Cryptocurrencies",7,141,5
+"Machine / deep learning","Cryptocurrencies",22,141,15.6
+"Classical break tests","Derivatives & options",43,199,21.6
+"Segmentation algorithms","Derivatives & options",1,199,0.5
+"Markov / regime switching","Derivatives & options",19,199,9.5
+"Threshold / smooth transition","Derivatives & options",3,199,1.5
+"Volatility models (GARCH/SV)","Derivatives & options",53,199,26.6
+"Bayesian","Derivatives & options",10,199,5
+"State-space / filtering","Derivatives & options",1,199,0.5
+"Wavelet / frequency","Derivatives & options",6,199,3
+"Nonparametric / kernel","Derivatives & options",7,199,3.5
+"Machine / deep learning","Derivatives & options",10,199,5
+"Classical break tests","Risk management",100,525,19
+"Segmentation algorithms","Risk management",11,525,2.1
+"Markov / regime switching","Risk management",43,525,8.2
+"Threshold / smooth transition","Risk management",7,525,1.3
+"Volatility models (GARCH/SV)","Risk management",151,525,28.8
+"Bayesian","Risk management",19,525,3.6
+"State-space / filtering","Risk management",7,525,1.3
+"Wavelet / frequency","Risk management",18,525,3.4
+"Nonparametric / kernel","Risk management",19,525,3.6
+"Machine / deep learning","Risk management",30,525,5.7
+"Classical break tests","Energy & environment",82,396,20.7
+"Segmentation algorithms","Energy & environment",0,396,0
+"Markov / regime switching","Energy & environment",3,396,0.8
+"Threshold / smooth transition","Energy & environment",8,396,2
+"Volatility models (GARCH/SV)","Energy & environment",16,396,4
+"Bayesian","Energy & environment",1,396,0.3
+"State-space / filtering","Energy & environment",0,396,0
+"Wavelet / frequency","Energy & environment",7,396,1.8
+"Nonparametric / kernel","Energy & environment",6,396,1.5
+"Machine / deep learning","Energy & environment",4,396,1

@@ -1,0 +1,9 @@
+"citing_corpus","citing_stratum","cited_corpus","links_to_ML_papers","ML_papers_citable"
+"A","T1 detection","A",21,97
+"A","T1 detection","B",7,198
+"A","T2 modelling","A",31,97
+"A","T2 modelling","B",12,198
+"B","T1 detection","A",18,97
+"B","T1 detection","B",42,198
+"B","T2 modelling","A",20,97
+"B","T2 modelling","B",32,198

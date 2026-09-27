@@ -1,0 +1,14 @@
+"step","n"
+"Residual duplicates removed",10
+"Records screened (A + B)",12000
+"Excluded: no detection / regime-switching term",1851
+"Excluded: no financial term (corpus B)",866
+"Excluded: off-domain marker",99
+"Excluded: structural-transformation literature",73
+"Records retained",9111
+"  corpus A",6576
+"  corpus B",2535
+"  T1a explicit detection",4253
+"  T1b contextual detection",698
+"  T1c CUSUM stability diagnostic",61
+"  T2 regime-switching modelling",4099

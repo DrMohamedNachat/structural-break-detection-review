@@ -1,0 +1,28 @@
+# Licence for the data, tables and figures
+
+The contents of `data/`, `validation/`, `vosviewer/` and `results/` are released
+under the **Creative Commons Attribution 4.0 International licence (CC BY 4.0)**:
+https://creativecommons.org/licenses/by/4.0/
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit — cite the article, see
+`CITATION.cff` — indicate whether you changed anything, and do not suggest the
+authors endorse your use.
+
+## Scope of this licence
+
+It covers the material this project created: the screening decisions, the rule flags,
+the keyword synonym table, the coded validation samples, the co-occurrence networks,
+and every derived table and figure.
+
+It does **not** and cannot cover the underlying bibliographic records. Those were
+retrieved from Web of Science (Clarivate) and Scopus (Elsevier) under an institutional
+licence that does not permit redistribution, and they remain the property of those
+publishers. The raw exports and all abstracts are therefore absent from this
+repository. Titles, journal names, publication years and DOIs are retained as
+bibliographic facts, so that any record referred to here can be looked up in either
+database by anyone holding their own subscription.
+
+Nothing in this licence grants any right in the Clarivate or Elsevier data, and
+re-running the searches in `appendix-a-search-strings.md` requires your own access to
+those databases.

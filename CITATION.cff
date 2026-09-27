@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: >-
+  Replication material for "From Regime Switching to Machine Learning? A
+  Bibliometric and Systematic Review of Structural Break Detection in Financial
+  Time Series"
+message: If you use this material, please cite the article.
+type: software
+authors:
+  # TODO: add co-authors in the order they appear on the article, and ORCIDs.
+  - family-names: Nachat
+    given-names: Mohamed
+    affiliation: Université Mohammed V de Rabat
+license: MIT
+license-url: https://github.com/OWNER/structural-break-detection-review/blob/main/LICENSE
+repository-code: https://github.com/OWNER/structural-break-detection-review
+keywords:
+  - bibliometric analysis
+  - systematic review
+  - structural breaks
+  - change point detection
+  - regime switching
+  - machine learning
+  - financial time series
+preferred-citation:
+  type: article
+  title: >-
+    From Regime Switching to Machine Learning? A Bibliometric and Systematic
+    Review of Structural Break Detection in Financial Time Series
+  authors:
+    # TODO: mirror the author list above.
+    - family-names: Nachat
+      given-names: Mohamed
+      affiliation: Université Mohammed V de Rabat
+  year: 2026
+  # TODO: fill in once the article is accepted.
+  journal: TBD
+  doi: TBD

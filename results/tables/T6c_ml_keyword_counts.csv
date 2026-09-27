@@ -1,0 +1,18 @@
+keyword,A,B,total
+machine learning,22,29,51
+deep learning,9,22,31
+neural network,24,37,61
+lstm,6,17,23
+random forest,1,2,3
+svm,3,16,19
+xgboost|boosting,2,4,6
+autoencoder,1,6,7
+reinforcement learning,6,15,21
+transformer,1,4,5
+artificial intelligence,6,6,12
+concept drift,7,59,66
+clustering|k-means,37,36,73
+change point (all variants),64,110,174
+structural break (all variants),1247,298,1545
+regime switching (all variants),642,293,935
+markov switching (all variants),830,191,1021

@@ -1,0 +1,5 @@
+"CORPUS","n","ml","pct","subset"
+"A",3543,49,1.38,"all retained"
+"B",1469,143,9.73,"all retained"
+"A",3285,42,1.28,"R2 applied to A as well"
+"B",1469,143,9.73,"R2 applied to A as well"

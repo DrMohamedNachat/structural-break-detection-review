@@ -1,0 +1,23 @@
+"step","n"
+"WoS corpus A (imported)",6418
+"WoS corpus B (imported)",3804
+"Scopus corpus A",7214
+"Scopus corpus B",3986
+"WoS records after import (convert2df drops exact UT duplicates)",10222
+"Scopus records after import",11200
+"Duplicates inside WoS",8
+"Duplicates inside Scopus",5
+"WoS-Scopus duplicates (WoS record kept)",9231
+"  matched by DOI",8797
+"  matched by title",434
+"Same title but different DOIs: kept as separate records",6
+"A/B label differs between databases (WoS label kept)",591
+"Same title+year kept apart (manual check needed)",6
+"Scopus-only records added",1964
+"Merged unique records (before exclusions)",12178
+"Excluded: final publication year > 2025",161
+"Excluded: retracted publications",7
+"Records retained after automatic exclusions",12010
+"  corpus A",7512
+"  corpus B",4498
+"WoS records retained (for reference-based analyses)",10046

@@ -1,0 +1,5 @@
+"CORPUS","n","ml","pct","subset","n_concept_drift_only"
+"A",3543,49,1.38,"all retained",103
+"B",1469,143,9.73,"all retained",103
+"A",3534,43,1.22,"excluding concept-drift-only records",103
+"B",1375,91,6.62,"excluding concept-drift-only records",103

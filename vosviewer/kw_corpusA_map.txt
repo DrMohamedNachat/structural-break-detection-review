@@ -1,0 +1,369 @@
+id	label	weight	score<Avg. pub. year>
+1	structural break	1247	2017.56
+2	markov switching	830	2018.05
+3	regime switching	642	2017.94
+4	cointegration	271	2017.25
+5	monetary policy	232	2017.76
+6	inflation	224	2018.76
+7	volatility	224	2018.69
+8	exchange rate	213	2018.78
+9	economic growth	197	2018.76
+10	garch	195	2018.24
+11	business cycle	165	2017.07
+12	stock market	163	2018.23
+13	covid-19	157	2022.57
+14	financial crisis	157	2016.86
+15	unit root	141	2016.16
+16	oil price	128	2018.39
+17	forecasting	123	2018.11
+18	long memory	90	2017.43
+19	financial development	84	2019.76
+20	nonlinearity	82	2017.73
+21	c22	79	2019.09
+22	china	76	2018.28
+23	cryptocurrency	75	2022.37
+24	stock return	74	2019.01
+25	ardl	73	2020.1
+26	asymmetry	73	2019.48
+27	market efficiency	72	2018.71
+28	stochastic volatility	71	2017.56
+29	fiscal policy	69	2018.62
+30	c32	68	2020.93
+31	ppp	67	2014.96
+32	bitcoin	66	2021.47
+33	change point	64	2019.84
+34	contagion	63	2017.08
+35	india	63	2019.98
+36	interest rate	63	2018.19
+37	real exchange rate	61	2015.82
+38	emerging markets	60	2017.77
+39	causality	57	2019.28
+40	volatility forecasting	55	2020.04
+41	regime shift	51	2015.9
+42	volatility spillover	51	2018.65
+43	granger causality	50	2017.46
+44	realized volatility	49	2018.8
+45	persistence	48	2017.48
+46	policy uncertainty	48	2021.88
+47	unemployment	48	2018.94
+48	uncertainty	46	2020.5
+49	g15	45	2021.6
+50	stock price	44	2018.2
+51	turkey	44	2017.86
+52	option pricing	43	2017.6
+53	inflation targeting	42	2016.36
+54	panel data	42	2018.9
+55	time series	42	2018.71
+56	crude oil	41	2019.44
+57	hidden markov model	41	2018.66
+58	taylor rule	41	2016.49
+59	asset pricing	39	2017.62
+60	fractional integration	39	2017.77
+61	g12	39	2020.9
+62	financial market	38	2019.16
+63	quantile regression	38	2019.95
+64	e31	36	2018.86
+65	macroeconomic variables	35	2018
+66	money demand	35	2017.89
+67	var	35	2017.29
+68	f31	34	2019.91
+69	nardl	34	2022.35
+70	crude oil price	33	2018.39
+71	spillover	33	2019.85
+72	energy consumption	32	2018.28
+73	g11	32	2020.84
+74	growth	32	2017.5
+75	value-at-risk	32	2018.81
+76	copula	31	2018.68
+77	e52	31	2020.1
+78	investor sentiment	31	2019.32
+79	kalman filter	31	2017.55
+80	phillips curve	31	2017.39
+81	risk management	31	2017.87
+82	bayesian estimation	30	2018.93
+83	e32	30	2019.33
+84	gold	30	2019.9
+85	time series analysis	30	2020.3
+86	vecm	30	2020.1
+87	liquidity	29	2017.79
+88	markov chain	29	2016.55
+89	time-varying parameters	29	2018.9
+90	asset allocation	28	2015.89
+91	commodity	28	2017.21
+92	financial crises	28	2018.29
+93	spillover effect	28	2018.29
+94	foreign direct investment	27	2019.52
+95	nigeria	27	2019.52
+96	pakistan	27	2020.33
+97	bayesian inference	26	2015.92
+98	fdi	26	2019.08
+99	financial stress	26	2020.73
+100	gdp	26	2020.08
+101	convergence	25	2018.6
+102	cusum	25	2017.92
+103	icss	25	2016.96
+104	mean reversion	25	2016.24
+105	portfolio diversification	25	2020.36
+106	predictability	25	2017.44
+107	term structure	25	2016.08
+108	credit risk	24	2018.42
+109	financial integration	24	2017.54
+110	g10	24	2021.08
+111	quantitative easing	24	2019.58
+112	south africa	24	2019.58
+113	zero lower bound	24	2019.5
+114	oil	23	2019.61
+115	oil price shocks	23	2019.78
+116	sustainability	23	2017.91
+117	vix	23	2019.83
+118	c58	22	2021.77
+119	commodity prices	22	2018.27
+120	crisis	22	2017.73
+121	financial contagion	22	2016.82
+122	machine learning	22	2023.05
+123	model selection	22	2018.36
+124	portfolio optimization	22	2019.41
+125	public debt	22	2018.82
+126	brazil	21	2018
+127	co-movement	21	2019.38
+128	finance	21	2021.14
+129	inflation uncertainty	21	2015.95
+130	markov regime switching model	21	2020.24
+131	model uncertainty	21	2016.24
+132	regime change	21	2018
+133	stock market volatility	21	2019.43
+134	value at risk	21	2016.43
+135	ardl model	20	2019.95
+136	bayesian analysis	20	2017.55
+137	bootstrap	20	2016.95
+138	brics	20	2021.65
+139	e44	20	2022.45
+140	exports	20	2018.75
+141	f41	20	2020.35
+142	factor model	20	2020.15
+143	g14	20	2022.3
+144	inflation persistence	20	2016.65
+145	investment	20	2017.7
+146	vector autoregression	20	2019.25
+147	current account	19	2016.58
+148	dynamic factor model	19	2018.58
+149	error correction model	19	2016.05
+150	euro area	19	2016.53
+151	hedging	19	2019.79
+152	inflation expectations	19	2021
+153	leverage effect	19	2018.21
+154	malaysia	19	2018.26
+155	money supply	19	2019.79
+156	multivariate garch	19	2016.05
+157	return predictability	19	2019.37
+158	trend break	19	2015.16
+159	bayesian methods	18	2018
+160	capm	18	2015.61
+161	correlation	18	2017.61
+162	egarch	18	2018.17
+163	exchange rate volatility	18	2019.28
+164	financial stability	18	2021.11
+165	fiscal sustainability	18	2018.06
+166	g01	18	2022.94
+167	g17	18	2022.44
+168	monte carlo simulation	18	2018.11
+169	parameter instability	18	2019.33
+170	risk premium	18	2016
+171	tail dependence	18	2017.44
+172	c51	17	2020.76
+173	c53	17	2020.53
+174	co2 emissions	17	2019.12
+175	e58	17	2019.29
+176	house prices	17	2017.88
+177	neural network	17	2018.94
+178	nonlinear	17	2017.35
+179	random walk	17	2016.59
+180	real-time data	17	2015.94
+181	reits	17	2018.41
+182	stationarity	17	2018.47
+183	stock market returns	17	2018.71
+184	threshold	17	2017.41
+185	turning points	17	2019.18
+186	unconventional monetary policy	17	2020.12
+187	breaks	16	2018.38
+188	cross-sectional dependence	16	2015.56
+189	endogeneity	16	2017.38
+190	esscher transform	16	2014.56
+191	great moderation	16	2017.69
+192	oil shocks	16	2016.5
+193	price discovery	16	2019
+194	real interest rate	16	2017.31
+195	subprime crisis	16	2015.06
+196	threshold cointegration	16	2017
+197	us	16	2018.62
+198	c11	15	2018.07
+199	central and eastern europe	15	2020.33
+200	credit default swap	15	2015.33
+201	diversification	15	2019.47
+202	dynamic conditional correlation	15	2016.27
+203	emerging economies	15	2020.13
+204	equity premium	15	2017.67
+205	forecast combination	15	2019.27
+206	herding	15	2018.13
+207	high-frequency data	15	2018.93
+208	implied volatility	15	2016.93
+209	latin america	15	2018.4
+210	markov-switching var	15	2018.93
+211	panel cointegration	15	2016.2
+212	remittances	15	2020.87
+213	risk	15	2017.27
+214	safe haven	15	2021.2
+215	state-space model	15	2018.73
+216	systemic risk	15	2019.27
+217	c13	14	2017.43
+218	capital flows	14	2017.29
+219	chow test	14	2016.43
+220	commodity market	14	2021
+221	conditional volatility	14	2017.07
+222	dynamic conditional correlations	14	2017.14
+223	economic development	14	2019.71
+224	emu	14	2013.86
+225	exchange rate regime	14	2018.07
+226	geopolitical risk	14	2023.71
+227	gross domestic product	14	2019.21
+228	hysteresis	14	2017.79
+229	natural gas	14	2018.86
+230	new keynesian model	14	2018.14
+231	oil market	14	2020.29
+232	portfolio management	14	2019.07
+233	real effective exchange rate	14	2019.36
+234	regime changes	14	2017.86
+235	renewable energy	14	2022.14
+236	saudi arabia	14	2019.21
+237	stability	14	2018
+238	term structure of interest rates	14	2014.43
+239	trade openness	14	2020.5
+240	yield curve	14	2018.29
+241	bai perron	13	2019.77
+242	c12	13	2018.62
+243	c52	13	2018.46
+244	chinese stock market	13	2019.77
+245	commodity futures	13	2016.92
+246	dcc-garch	13	2020.62
+247	energy	13	2019.69
+248	energy prices	13	2017
+249	eurozone	13	2018.08
+250	expected shortfall	13	2021.54
+251	filtering	13	2016.92
+252	financial stress index	13	2021.38
+253	forecast evaluation	13	2016.77
+254	fourier function	13	2016.85
+255	heterogeneity	13	2016.77
+256	heteroskedasticity	13	2018.46
+257	impulse responses	13	2017.23
+258	markov chain monte carlo	13	2014.85
+259	mcmc	13	2016
+260	momentum	13	2017
+261	output gap	13	2018.62
+262	q43	13	2021
+263	real interest rate parity	13	2016.69
+264	volatility clustering	13	2018.15
+265	volatility persistence	13	2015.31
+266	africa	12	2018.42
+267	australia	12	2017.58
+268	bayesian model averaging	12	2017.83
+269	behavioral finance	12	2021.5
+270	breakpoint	12	2019.67
+271	connectedness	12	2022.25
+272	consumer price index	12	2017.58
+273	credit default swaps	12	2016.75
+274	currency crisis	12	2015
+275	dsge model	12	2017.83
+276	event study	12	2020.67
+277	exchange rate pass-through	12	2018.67
+278	factor models	12	2019.67
+279	financialization	12	2020.42
+280	forecast	12	2018.58
+281	great recession	12	2017.83
+282	inflation rate	12	2017.92
+283	jumps	12	2017.33
+284	market risk	12	2018.33
+285	ms-var	12	2019.83
+286	nonlinear models	12	2017.5
+287	output growth	12	2016.67
+288	principal component analysis	12	2020.75
+289	simulation	12	2017
+290	smooth transition	12	2017.67
+291	stock market integration	12	2016
+292	time-varying causality	12	2019.5
+293	trade balance	12	2019.83
+294	trading volume	12	2017.33
+295	volatility regimes	12	2017.67
+296	asean	11	2018.55
+297	asymmetric effect	11	2019.45
+298	bounds test	11	2017.36
+299	capital mobility	11	2017
+300	e37	11	2020.18
+301	emerging market	11	2020.27
+302	endogenous structural breaks	11	2015.27
+303	european union	11	2021.09
+304	g1	11	2016.45
+305	g13	11	2019.27
+306	g21	11	2023.09
+307	globalization	11	2020.27
+308	half-life	11	2016.09
+309	indonesia	11	2019.82
+310	inflation dynamics	11	2015.73
+311	macroeconomic factors	11	2020.09
+312	mean-reversion	11	2018.64
+313	nonlinear time series	11	2016.45
+314	nonstationarity	11	2019.55
+315	rolling window	11	2020.45
+316	russia	11	2017
+317	stocks	11	2019.45
+318	structural var	11	2017.18
+319	tourism	11	2021.64
+320	trade	11	2018.36
+321	asymmetric effects	10	2020.1
+322	bayesian econometrics	10	2016.9
+323	bubble	10	2018.6
+324	clustering	10	2019.8
+325	debt	10	2019.1
+326	dsge models	10	2015.3
+327	dynamic copula	10	2016.1
+328	dynamic correlations	10	2016.8
+329	e43	10	2018.3
+330	efficiency	10	2016.7
+331	european integration	10	2020.9
+332	expectations	10	2018
+333	external debt	10	2021
+334	extreme value theory	10	2016.7
+335	f21	10	2019.8
+336	f32	10	2018.6
+337	fractional cointegration	10	2018.7
+338	fundamentals	10	2015.6
+339	gdp growth	10	2019.6
+340	geopolitical risks	10	2022
+341	hedge	10	2020.6
+342	learning	10	2015.9
+343	liquidity risk	10	2015
+344	macroeconomic forecasting	10	2016.1
+345	macroeconomics	10	2018.5
+346	market integration	10	2017.4
+347	market microstructure	10	2017.8
+348	markov switching var	10	2019.3
+349	mexico	10	2016.1
+350	ms-garch	10	2020.2
+351	ms-var model	10	2019.6
+352	nowcasting	10	2018.4
+353	oil price volatility	10	2019.5
+354	out-of-sample forecasts	10	2019.8
+355	particle filter	10	2017.6
+356	portfolio selection	10	2018.4
+357	regimes	10	2017.6
+358	seasonality	10	2018.1
+359	sovereign risk	10	2018.3
+360	speculation	10	2017.2
+361	state space model	10	2015.6
+362	stock return volatility	10	2017.3
+363	terms of trade	10	2016.7
+364	tvp-var	10	2023.8
+365	var model	10	2017.1
+366	variance decomposition	10	2017
+367	vector error correction	10	2019.4
+368	wavelets	10	2018.1

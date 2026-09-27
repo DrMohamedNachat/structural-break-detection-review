@@ -1,0 +1,61 @@
+"CORPUS","kw","n","docs","share_of_docs"
+"A","structural break",1247,6084,0.205
+"A","markov switching",830,6084,0.1364
+"A","regime switching",642,6084,0.1055
+"A","cointegration",271,6084,0.0445
+"A","monetary policy",232,6084,0.0381
+"A","inflation",224,6084,0.0368
+"A","volatility",224,6084,0.0368
+"A","exchange rate",213,6084,0.035
+"A","economic growth",197,6084,0.0324
+"A","garch",195,6084,0.0321
+"A","business cycle",165,6084,0.0271
+"A","stock market",163,6084,0.0268
+"A","covid-19",157,6084,0.0258
+"A","financial crisis",157,6084,0.0258
+"A","unit root",141,6084,0.0232
+"A","oil price",128,6084,0.021
+"A","forecasting",123,6084,0.0202
+"A","long memory",90,6084,0.0148
+"A","financial development",84,6084,0.0138
+"A","nonlinearity",82,6084,0.0135
+"A","c22",79,6084,0.013
+"A","china",76,6084,0.0125
+"A","cryptocurrency",75,6084,0.0123
+"A","stock return",74,6084,0.0122
+"A","ardl",73,6084,0.012
+"A","asymmetry",73,6084,0.012
+"A","market efficiency",72,6084,0.0118
+"A","stochastic volatility",71,6084,0.0117
+"A","fiscal policy",69,6084,0.0113
+"A","c32",68,6084,0.0112
+"B","structural break",298,2290,0.1301
+"B","regime switching",293,2290,0.1279
+"B","markov switching",191,2290,0.0834
+"B","economic growth",122,2290,0.0533
+"B","change point",110,2290,0.048
+"B","volatility",66,2290,0.0288
+"B","financial development",65,2290,0.0284
+"B","cointegration",62,2290,0.0271
+"B","oil price",61,2290,0.0266
+"B","garch",57,2290,0.0249
+"B","covid-19",55,2290,0.024
+"B","concept drift",53,2290,0.0231
+"B","co2 emissions",45,2290,0.0197
+"B","energy consumption",45,2290,0.0197
+"B","exchange rate",45,2290,0.0197
+"B","option pricing",43,2290,0.0188
+"B","time series",43,2290,0.0188
+"B","forecasting",42,2290,0.0183
+"B","ardl",40,2290,0.0175
+"B","unit root",39,2290,0.017
+"B","stock market",34,2290,0.0148
+"B","financial crisis",33,2290,0.0144
+"B","cryptocurrency",32,2290,0.014
+"B","stochastic volatility",32,2290,0.014
+"B","business cycle",31,2290,0.0135
+"B","hidden markov model",29,2290,0.0127
+"B","machine learning",29,2290,0.0127
+"B","causality",27,2290,0.0118
+"B","gdp",27,2290,0.0118
+"B","financial time series",26,2290,0.0114

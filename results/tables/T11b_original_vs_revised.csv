@@ -1,0 +1,12 @@
+"indicator","n","share"
+"Original records (corrected)",1748,1
+"Retrieved by the extended search",1599,0.915
+"  matched by DOI",1592,0.911
+"  matched by title only",7,0.004
+"Not retrieved",149,0.085
+"Retained by the revised screening",1572,0.899
+"  stratum T1a explicit detection",506,0.289
+"  stratum T1b contextual detection",6,0.003
+"  stratum T1c CUSUM stability diagnostic",0,0
+"  stratum T2 regime-switching modelling",1060,0.606
+"  excluded by the revised screening",27,0.015

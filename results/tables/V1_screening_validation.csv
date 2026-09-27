@@ -1,0 +1,3 @@
+"coder","n_retained","n_excluded","precision","precision_lo","precision_hi","recall","recall_lo","recall_hi","eligible_among_excluded"
+"c1",75,75,0.867,0.787,0.933,0.911,0.88,0.943,0.267
+"c2",75,75,0.987,0.96,1,0.889,0.862,0.918,0.387
