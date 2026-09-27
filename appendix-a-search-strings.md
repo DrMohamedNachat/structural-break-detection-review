@@ -1,72 +1,144 @@
 # Appendix A — Search strings
 
-> **⚠ TO BE COMPLETED BEFORE PUBLISHING THIS REPOSITORY.**
-> The four query strings below are the only part of the replication material that
-> could not be recovered from the project folder: they live in the manuscript's
-> Appendix A, not in the code. Paste each one in verbatim, exactly as submitted to
-> the database, then delete this note.
->
-> Nothing else in this repository depends on them being present, but without them the
-> corpus cannot be rebuilt, so the repository is not yet complete.
+Searches were run in **September 2026** on **Scopus** and the **Web of Science Core
+Collection**, covering publications dated **2010–2025**.
 
-Searches were run on **Scopus** and **Web of Science Core Collection**. Both were
-split into two corpora by the database's own subject classification, so that the
-economics and business literature (corpus A) can be compared with the literature in
-every other field (corpus B) without either query having to guess at venue lists.
+Each query combines two blocks with `AND`, both applied to title, author keywords and
+abstract:
 
-Filters applied in all four searches: publication years **2010–2025**, language
-**English**. Records with a final publication year of 2026 and retracted publications
-are removed in `R/01_import_merge.R` rather than by the query, so that the counts
-appear in the PRISMA diagram.
+- **Block 1 — the phenomenon and the named procedures used to detect it.** Change
+  point, structural break, structural or parameter instability, regime switching,
+  Markov switching, regime change, regime shift, breakpoint, break date, trend break,
+  change detection, concept drift, time series segmentation, together with
+  Bai–Perron, Chow test, CUSUM, Zivot–Andrews, ICSS, Inclán–Tiao, sup-F, Quandt, PELT
+  and binary segmentation. **`structural change` is searched in titles and keywords
+  only**, because in abstracts it mostly denotes sectoral transformation.
+- **Block 2 — the domain**: financial and macroeconomic series (financial, stock,
+  volatility, exchange rate, cryptocurrency, commodity, oil price, interest rate,
+  bond yield, credit, inflation, GDP, business cycle, monetary policy, among others).
 
-## A.1 Web of Science — corpus A (Business & Economics)
+No method term is imposed, so the searches do not presuppose which family of methods
+a study uses.
 
-Exported as plain text (full record with cited references) into `Wos_A_01.txt` …
-`Wos_A_13.txt`; 6,418 records.
+Each search was run **twice**: once restricted to the economics and business subject
+areas, once restricted to their complement. The two runs define corpus A (economics
+and business venues) and corpus B (all other venues). Both were limited to
+English-language articles, reviews and conference papers.
 
-```
-<PASTE THE WEB OF SCIENCE QUERY FOR CORPUS A HERE>
-```
+---
 
-## A.2 Web of Science — corpus B (all other research areas)
+## A.1 Scopus — corpus A
 
-Exported as plain text (full record with cited references) into `WoS_B_1.txt` …
-`WoS_B_8.txt`; 3,804 records.
-
-```
-<PASTE THE WEB OF SCIENCE QUERY FOR CORPUS B HERE>
-```
-
-## A.3 Scopus — corpus A (SUBJAREA ECON or BUSI)
-
-Exported as CSV with abstracts, keywords and references into `Scopus_A.csv`;
-7,214 records.
+Corpus B uses the same string with `AND NOT SUBJAREA ( ECON OR BUSI )` as last
+clause.
 
 ```
-<PASTE THE SCOPUS QUERY FOR CORPUS A HERE>
+( TITLE ( "change point*" OR "changepoint*" OR "change-point*" OR "structural break*"
+OR "structural change*" OR "structural instabilit*" OR "parameter instabilit*" OR
+"regime change*" OR "regime shift*" OR "regime switch*" OR "Markov switch*" OR
+"Markov-switch*" OR "breakpoint*" OR "break point*" OR "break date*" OR "trend break*"
+OR "change detection" OR "concept drift" OR "time series segmentation" OR "Bai-Perron"
+OR "Bai and Perron" OR "Chow test*" OR "CUSUM*" OR "Zivot-Andrews" OR "Zivot and
+Andrews" OR "ICSS" OR "Inclan-Tiao" OR "Inclan and Tiao" OR "sup-F" OR "supF" OR
+"Quandt" OR "PELT" OR "binary segmentation" ) OR AUTHKEY ( "change point*" OR
+"changepoint*" OR "change-point*" OR "structural break*" OR "structural change*" OR
+"structural instabilit*" OR "parameter instabilit*" OR "regime change*" OR "regime
+shift*" OR "regime switch*" OR "Markov switch*" OR "Markov-switch*" OR "breakpoint*"
+OR "break point*" OR "break date*" OR "trend break*" OR "change detection" OR "concept
+drift" OR "time series segmentation" OR "Bai-Perron" OR "Bai and Perron" OR "Chow
+test*" OR "CUSUM*" OR "Zivot-Andrews" OR "Zivot and Andrews" OR "ICSS" OR
+"Inclan-Tiao" OR "Inclan and Tiao" OR "sup-F" OR "supF" OR "Quandt" OR "PELT" OR
+"binary segmentation" ) OR ABS ( "change point*" OR "changepoint*" OR "change-point*"
+OR "structural break*" OR "structural instabilit*" OR "parameter instabilit*" OR
+"regime change*" OR "regime shift*" OR "regime switch*" OR "Markov switch*" OR
+"Markov-switch*" OR "breakpoint*" OR "break point*" OR "break date*" OR "trend break*"
+OR "change detection" OR "concept drift" OR "time series segmentation" OR "Bai-Perron"
+OR "Bai and Perron" OR "Chow test*" OR "CUSUM*" OR "Zivot-Andrews" OR "Zivot and
+Andrews" OR "ICSS" OR "Inclan-Tiao" OR "Inclan and Tiao" OR "sup-F" OR "supF" OR
+"Quandt" OR "PELT" OR "binary segmentation" ) ) AND ( TITLE ( "financial" OR "finance"
+OR "stock*" OR "equity market*" OR "asset price*" OR "asset return*" OR "volatility"
+OR "exchange rate*" OR "foreign exchange" OR "currenc*" OR "cryptocurrenc*" OR
+"bitcoin" OR "commodit*" OR "oil price*" OR "interest rate*" OR "bond market*" OR
+"bond yield*" OR "yield curve" OR "credit" OR "inflation" OR "GDP" OR "macroeconom*"
+OR "business cycle*" OR "monetary policy" OR "economic time series" ) OR ABS (
+"financial" OR "finance" OR "stock*" OR "equity market*" OR "asset price*" OR "asset
+return*" OR "volatility" OR "exchange rate*" OR "foreign exchange" OR "currenc*" OR
+"cryptocurrenc*" OR "bitcoin" OR "commodit*" OR "oil price*" OR "interest rate*" OR
+"bond market*" OR "bond yield*" OR "yield curve" OR "credit" OR "inflation" OR "GDP"
+OR "macroeconom*" OR "business cycle*" OR "monetary policy" OR "economic time series"
+) OR AUTHKEY ( "financial" OR "finance" OR "stock*" OR "equity market*" OR "asset
+price*" OR "asset return*" OR "volatility" OR "exchange rate*" OR "foreign exchange"
+OR "currenc*" OR "cryptocurrenc*" OR "bitcoin" OR "commodit*" OR "oil price*" OR
+"interest rate*" OR "bond market*" OR "bond yield*" OR "yield curve" OR "credit" OR
+"inflation" OR "GDP" OR "macroeconom*" OR "business cycle*" OR "monetary policy" OR
+"economic time series" ) ) ) AND PUBYEAR > 2009 AND PUBYEAR < 2026 AND LANGUAGE (
+english ) AND DOCTYPE ( ar OR re OR cp ) AND SUBJAREA ( ECON OR BUSI )
 ```
 
-## A.4 Scopus — corpus B (NOT SUBJAREA ECON or BUSI)
+Exported as CSV with citation information, bibliographical information, abstract and
+keywords, and references, into `Scopus_A.csv` (7,214 records) and `Scopus_B.csv`
+(3,986 records).
 
-Exported as CSV with abstracts, keywords and references into `Scopus_B.csv`;
-3,986 records.
+---
+
+## A.2 Web of Science — corpus A
+
+Corpus B replaces the last clause by `AND NOT SU=("Business & Economics")`.
 
 ```
-<PASTE THE SCOPUS QUERY FOR CORPUS B HERE>
+(TI=("change point*" OR "changepoint*" OR "change-point*" OR "structural break*" OR
+"structural change*" OR "structural instabilit*" OR "parameter instabilit*" OR "regime
+change*" OR "regime shift*" OR "regime switch*" OR "Markov switch*" OR
+"Markov-switch*" OR "breakpoint*" OR "break point*" OR "break date*" OR "trend break*"
+OR "change detection" OR "concept drift" OR "time series segmentation" OR "Bai-Perron"
+OR "Bai and Perron" OR "Chow test*" OR "CUSUM*" OR "Zivot-Andrews" OR "Zivot and
+Andrews" OR "ICSS" OR "Inclan-Tiao" OR "Inclan and Tiao" OR "sup-F" OR "supF" OR
+"Quandt" OR "PELT" OR "binary segmentation") OR AK=("change point*" OR "changepoint*"
+OR "change-point*" OR "structural break*" OR "structural change*" OR "structural
+instabilit*" OR "parameter instabilit*" OR "regime change*" OR "regime shift*" OR
+"regime switch*" OR "Markov switch*" OR "Markov-switch*" OR "breakpoint*" OR "break
+point*" OR "break date*" OR "trend break*" OR "change detection" OR "concept drift" OR
+"time series segmentation" OR "Bai-Perron" OR "Bai and Perron" OR "Chow test*" OR
+"CUSUM*" OR "Zivot-Andrews" OR "Zivot and Andrews" OR "ICSS" OR "Inclan-Tiao" OR
+"Inclan and Tiao" OR "sup-F" OR "supF" OR "Quandt" OR "PELT" OR "binary segmentation")
+OR AB=("change point*" OR "changepoint*" OR "change-point*" OR "structural break*" OR
+"structural instabilit*" OR "parameter instabilit*" OR "regime change*" OR "regime
+shift*" OR "regime switch*" OR "Markov switch*" OR "Markov-switch*" OR "breakpoint*"
+OR "break point*" OR "break date*" OR "trend break*" OR "change detection" OR "concept
+drift" OR "time series segmentation" OR "Bai-Perron" OR "Bai and Perron" OR "Chow
+test*" OR "CUSUM*" OR "Zivot-Andrews" OR "Zivot and Andrews" OR "ICSS" OR
+"Inclan-Tiao" OR "Inclan and Tiao" OR "sup-F" OR "supF" OR "Quandt" OR "PELT" OR
+"binary segmentation")) AND (TI=("financial" OR "finance" OR "stock*" OR "equity
+market*" OR "asset price*" OR "asset return*" OR "volatility" OR "exchange rate*" OR
+"foreign exchange" OR "currenc*" OR "cryptocurrenc*" OR "bitcoin" OR "commodit*" OR
+"oil price*" OR "interest rate*" OR "bond market*" OR "bond yield*" OR "yield curve"
+OR "credit" OR "inflation" OR "GDP" OR "macroeconom*" OR "business cycle*" OR
+"monetary policy" OR "economic time series") OR AB=("financial" OR "finance" OR
+"stock*" OR "equity market*" OR "asset price*" OR "asset return*" OR "volatility" OR
+"exchange rate*" OR "foreign exchange" OR "currenc*" OR "cryptocurrenc*" OR "bitcoin"
+OR "commodit*" OR "oil price*" OR "interest rate*" OR "bond market*" OR "bond yield*"
+OR "yield curve" OR "credit" OR "inflation" OR "GDP" OR "macroeconom*" OR "business
+cycle*" OR "monetary policy" OR "economic time series") OR AK=("financial" OR
+"finance" OR "stock*" OR "equity market*" OR "asset price*" OR "asset return*" OR
+"volatility" OR "exchange rate*" OR "foreign exchange" OR "currenc*" OR
+"cryptocurrenc*" OR "bitcoin" OR "commodit*" OR "oil price*" OR "interest rate*" OR
+"bond market*" OR "bond yield*" OR "yield curve" OR "credit" OR "inflation" OR "GDP"
+OR "macroeconom*" OR "business cycle*" OR "monetary policy" OR "economic time
+series")) AND PY=(2010-2025) AND DT=(Article OR Review OR "Proceedings Paper") AND
+LA=(English) AND SU=("Business & Economics")
 ```
 
-## Export settings
+Exported as **"Full Record and Cited References"** in plain text into `Wos_A_01.txt` …
+`Wos_A_13.txt` (6,418 records) and `WoS_B_1.txt` … `WoS_B_8.txt` (3,804 records).
 
-The Web of Science exports must be **"Full Record and Cited References"** in plain
-text. `R/04_cross_citation.R` matches the DOIs in the `CR` field against the corpus
-DOIs to build the citation links between the two corpora; without cited references
-that step produces nothing. Web of Science caps a plain-text export at 500 records,
-which is why corpus A arrives in thirteen files and corpus B in eight —
-`R/01_import_merge.R` globs `^wos_a_.*\.txt$` and `^wos_b_.*\.txt$`
+The cited references are not optional: `R/04_cross_citation.R` matches the DOIs in the
+`CR` field against the corpus DOIs to build the citation links between the two
+corpora, and without them that step produces nothing. Web of Science caps a plain-text
+export at 500 records, which is why corpus A arrives in thirteen files and corpus B in
+eight; `R/01_import_merge.R` globs `^wos_a_.*\.txt$` and `^wos_b_.*\.txt$`
 case-insensitively, so the file count does not matter.
 
-Scopus exports need **Citation information, Bibliographical information, Abstract &
-keywords** and **References** ticked.
+---
 
 ## What the queries retrieved
 
@@ -75,11 +147,14 @@ keywords** and **References** ticked.
 | Corpus A | 6,418 | 7,214 |
 | Corpus B | 3,804 | 3,986 |
 
-After deduplication within each database (8 and 5 records), across databases
-(9,231 records found in both, the Web of Science version kept) and the automatic
-exclusions, **12,000** records entered the screening. The full chain of counts is
-`results/tables/S0_prisma_counts.csv`, drawn as `results/figures/F1_prisma.pdf`.
-
-591 records carry a different corpus label in the two databases; the Web of Science
-label is kept, and all of them are listed in
+The A/B label describes the venue as the database classifies it, not the content of
+the article. 591 records received different labels in the two databases and were given
+the Web of Science label; all of them are listed in
 `results/tables/S4_label_discordance.csv`.
+
+After deduplication within each database (8 records within WoS, 5 within Scopus),
+across databases (9,231, the Web of Science record kept because it carries the cited
+references) and the automatic exclusions — publication year 2026 (161), retracted (7),
+residual duplicates differing only in DOI punctuation (10) — **12,000** records entered
+the screening. The full chain of counts is `results/tables/S0_prisma_counts.csv`, drawn
+as `results/figures/F1_prisma.pdf`.

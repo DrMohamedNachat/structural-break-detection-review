@@ -6,18 +6,44 @@ title: >-
 message: If you use this material, please cite the article.
 type: software
 authors:
-  # TODO: add co-authors in the order they appear on the article, and ORCIDs.
+  # TODO: add each author's ORCID as `orcid: "https://orcid.org/0000-0000-0000-0000"`.
   - family-names: Nachat
     given-names: Mohamed
-    affiliation: Université Mohammed V de Rabat
+    email: mohamed.nachat.d25@ump.ac.ma
+    affiliation: >-
+      LaMSD, Department of Mathematics, Faculty of Science, Mohammed I
+      University of Oujda, Morocco
+  - family-names: Oukhouya
+    given-names: Hassan
+    email: oukhouya.hassan@ump.ac.ma
+    affiliation: >-
+      LaMSD, Department of Mathematics, Faculty of Science, Mohammed I
+      University of Oujda, Morocco; MAEGE, Department of Statistics and Applied
+      Mathematics, FSJES Ain Sebaa, Hassan II University of Casablanca, Morocco
+  - family-names: El Melhaoui
+    given-names: Said
+    email: s1.elmelhaoui@ump.ac.ma
+    affiliation: >-
+      LaMSD, Department of Mathematics, Faculty of Science, Mohammed I
+      University of Oujda, Morocco
 license: MIT
+# TODO: replace OWNER with the GitHub account that hosts the repository.
 license-url: https://github.com/OWNER/structural-break-detection-review/blob/main/LICENSE
 repository-code: https://github.com/OWNER/structural-break-detection-review
+abstract: >-
+  Code and derived data behind a bibliometric and systematic review of 9,111
+  articles published between 2010 and 2025 on the detection of structural
+  breaks, change points and regime changes in financial and economic time
+  series. Articles published in economics and business venues are analysed
+  separately from articles on the same problem published elsewhere, and a
+  rule-based screening validated on a double-coded sample separates the
+  detection of breaks from regime-switching modelling.
 keywords:
   - bibliometric analysis
   - systematic review
   - structural breaks
   - change point detection
+  - Markov switching
   - regime switching
   - machine learning
   - financial time series
@@ -27,10 +53,12 @@ preferred-citation:
     From Regime Switching to Machine Learning? A Bibliometric and Systematic
     Review of Structural Break Detection in Financial Time Series
   authors:
-    # TODO: mirror the author list above.
     - family-names: Nachat
       given-names: Mohamed
-      affiliation: Université Mohammed V de Rabat
+    - family-names: Oukhouya
+      given-names: Hassan
+    - family-names: El Melhaoui
+      given-names: Said
   year: 2026
   # TODO: fill in once the article is accepted.
   journal: TBD

@@ -24,6 +24,24 @@ review turns on:
 | T1c | CUSUM used only as an ARDL stability diagnostic | 61 |
 | T2 | Regime-switching *modelling* without detection vocabulary | 4,099 |
 
+## What the review finds
+
+Three results, each with the file that produces it:
+
+- **Machine learning has barely reached detection in economics venues.** Among
+  detection papers, ML or DL is *mentioned* by 1.4 % in economics and business venues
+  against 15.0 % in mathematics, statistics, computer science and physics venues.
+  After reading all 325 records that mention it, the shares actually *using* ML to
+  detect breaks are 0.25 % and 3.8 %. → `X3`, `V3`, `V4`
+- **The two vocabularies sit in different clusters.** In the keyword co-occurrence
+  networks the ML terms group with *change point* and *concept drift*, while
+  *structural break* anchors a separate cluster with unit-root vocabulary. →
+  `vosviewer/`, `F7b`/`F7c_keyword_cooccurrence`
+- **The communities do not read each other, and this has not changed.** Economics
+  papers direct 11.8 % of their within-corpus references to the other venues, about
+  half of what the size of that literature implies, and the ratio has stayed near one
+  half since 2010. → `T10b`, `X5`
+
 ## What is in this repository
 
 ```
@@ -92,6 +110,36 @@ run. The Python figures need `matplotlib`, `pandas` and `numpy`
 
 No number in any figure or table is typed by hand: the PRISMA boxes and the figure
 labels all read the counts written by earlier steps.
+
+## Where each table and figure of the article comes from
+
+| In the article | In this repository |
+|---|---|
+| Table 1 — eligibility rules | The rules as code, `R/02b_screening.R` sections 1–4 |
+| Table 2 — main information | `results/tables/T1_main_information.csv` |
+| Table 3 — fifteen most productive sources | `results/tables/T3_top_sources.csv` |
+| Table 4 — fifteen most productive countries | `results/tables/T4_top_countries_corresponding_author.csv` |
+| Table 5 — twenty most cited documents | `results/tables/T5_top_cited.csv` |
+| Table 6 — twenty most frequent keywords, ML/DL counts | `T6b_top_author_keywords_all.csv`, `T6c_ml_keyword_counts.csv` |
+| Table 7 — method-family shares | `X2_families_by_subcorpus.csv` (detection, by sub-corpus), `T7b_method_families_by_corpus_stratum.csv` (modelling, by corpus) |
+| Table 8 — citation links inside the corpus | `T10b_link_matrix.csv`, `X4_crosscite_subcorpus.csv` |
+| Table 9 — sensitivity of family shares | `T9a_sensitivity_sizes.csv`, `T9b_sensitivity_method_families.csv`, `X9_sensitivity_R2_on_A.csv`, `X10_sensitivity_concept_drift.csv` |
+| Figure 1 — PRISMA flow | `results/figures/F1_prisma.pdf` |
+| Figure 2 — annual production | `results/figures/F2b_annual_production_by_stratum.pdf` |
+| Figure 3 — most productive authors | `results/figures/F3_top_authors.pdf` |
+| Figure 4 — geographic distribution | `results/figures/F4_world_map.pdf` |
+| Figure 5 — international collaboration | `results/figures/F5_country_collaboration_heatmap.pdf` |
+| Figure 6 — co-occurrence networks, network view | `F7_cooccurrence_all_network.pdf`, `F7b_cooccurrence_detection_network.pdf`, from `vosviewer/` |
+| Figure 7 — ML in detection papers by period | data in `X3_ml_by_subcorpus_period.csv` |
+| Figure 8 — A → B links by period | data in `X5_crosscite_period_timeaware.csv` |
+| Figure 9 — methodological genealogy | `python/fig_genealogy_timeline.py` |
+| Figure B.11 — co-occurrence networks, overlay view | `F7_cooccurrence_all_overlay.pdf`, `F7b_cooccurrence_detection_overlay.pdf` |
+
+Table 10 of the article compares the seven families qualitatively and has no
+computed counterpart. `F2`, `F8_ml_share_by_year_detection` and `F10` in
+`results/figures/` are the R versions of Figures 2, 7 and 8 at a different
+aggregation (by year and corpus rather than by period and sub-corpus); they are kept
+because the pipeline writes them.
 
 ## How records were screened
 
