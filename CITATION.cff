@@ -13,6 +13,7 @@ authors:
     affiliation: >-
       LaMSD, Department of Mathematics, Faculty of Science, Mohammed I
       University of Oujda, Morocco
+    orcid: "https://orcid.org/0009-0000-5783-7643"
   - family-names: Oukhouya
     given-names: Hassan
     email: oukhouya.hassan@ump.ac.ma
@@ -20,12 +21,14 @@ authors:
       LaMSD, Department of Mathematics, Faculty of Science, Mohammed I
       University of Oujda, Morocco; MAEGE, Department of Statistics and Applied
       Mathematics, FSJES Ain Sebaa, Hassan II University of Casablanca, Morocco
+    orcid: "https://orcid.org/0000-0002-5058-2008"
   - family-names: El Melhaoui
     given-names: Said
     email: s1.elmelhaoui@ump.ac.ma
     affiliation: >-
       LaMSD, Department of Mathematics, Faculty of Science, Mohammed I
       University of Oujda, Morocco
+    orcid: "https://orcid.org/0000-0002-2458-2338"
 license: MIT
 # TODO: replace OWNER with the GitHub account that hosts the repository.
 license-url: https://github.com/OWNER/structural-break-detection-review/blob/main/LICENSE
