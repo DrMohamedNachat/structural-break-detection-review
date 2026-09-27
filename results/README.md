@@ -34,9 +34,16 @@ directory sorts in reading order.
 | `F7_method_families` | 03 | Family prevalence by corpus and stratum, with Wilson intervals |
 | `F7b`, `F7c` `_keyword_cooccurrence` | 03 | Keyword co-occurrence networks drawn in R, coloured by Louvain community |
 | `F8_ml_share_by_year_detection` | 03 | ML/DL share per year among detection papers |
+| `F8_ml_share_subcorpus` | `python/fig_ml_share_subcorpus.py` | ML mentioned and ML validated as used for detection, by sub-corpus and period, from `X3` — **Figure 7 of the article** |
 | `F10_cross_citation_over_time` | 04 | Share of citation links going to the other corpus, by period |
+| `F10_crosscite_timeaware` | `python/fig_crosscite_timeaware.py` | Observed and expected share of A → B links and their ratio, from `X5` — **Figure 8 of the article** |
 | `fig_gap_heatmap` | `python/fig_gap_heatmap.py` | Method family × application domain density, from `X6` |
 | `fig_genealogy_timeline` | `python/fig_genealogy_timeline.py` | Methodological genealogy of the seven families |
+
+The `F8_*` and `F10_*` pairs are not duplicates. The R scripts plot by year and
+corpus; the Python scripts plot by period and sub-corpus (A, B1, B2), which is the
+aggregation the article uses, and the validated ML series exists only in the Python
+version.
 
 `F7_cooccurrence_all_network.pdf`, `F7_cooccurrence_all_overlay.pdf` and their
 `F7b_cooccurrence_detection_*` counterparts are the **VOSviewer** renderings, laid out

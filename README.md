@@ -47,7 +47,7 @@ Three results, each with the file that produces it:
 ```
 appendix-a-search-strings.md   the Scopus and Web of Science queries
 R/                             the analysis pipeline, 01 to 09
-python/                        the two figure scripts (genealogy, gap heatmap)
+python/                        the four figure scripts
 data/                          keyword synonym table; per-record screening decisions
 validation/                    the coded validation samples
 vosviewer/                     keyword co-occurrence maps and networks
@@ -130,16 +130,16 @@ labels all read the counts written by earlier steps.
 | Figure 4 — geographic distribution | `results/figures/F4_world_map.pdf` |
 | Figure 5 — international collaboration | `results/figures/F5_country_collaboration_heatmap.pdf` |
 | Figure 6 — co-occurrence networks, network view | `F7_cooccurrence_all_network.pdf`, `F7b_cooccurrence_detection_network.pdf`, from `vosviewer/` |
-| Figure 7 — ML in detection papers by period | data in `X3_ml_by_subcorpus_period.csv` |
-| Figure 8 — A → B links by period | data in `X5_crosscite_period_timeaware.csv` |
+| Figure 7 — ML in detection papers by period | `python/fig_ml_share_subcorpus.py` → `F8_ml_share_subcorpus.pdf` |
+| Figure 8 — A → B links by period | `python/fig_crosscite_timeaware.py` → `F10_crosscite_timeaware.pdf` |
 | Figure 9 — methodological genealogy | `python/fig_genealogy_timeline.py` |
 | Figure B.11 — co-occurrence networks, overlay view | `F7_cooccurrence_all_overlay.pdf`, `F7b_cooccurrence_detection_overlay.pdf` |
 
-Table 10 of the article compares the seven families qualitatively and has no
-computed counterpart. `F2`, `F8_ml_share_by_year_detection` and `F10` in
-`results/figures/` are the R versions of Figures 2, 7 and 8 at a different
-aggregation (by year and corpus rather than by period and sub-corpus); they are kept
-because the pipeline writes them.
+Table 10 of the article compares the seven families qualitatively and has no computed
+counterpart. `F2_annual_production`, `F8_ml_share_by_year_detection` and
+`F10_cross_citation_over_time` are the R versions of Figures 2, 7 and 8 at a coarser
+aggregation — by year and corpus rather than by period and sub-corpus. The article
+uses the Python versions; both are kept because the pipeline writes them.
 
 ## How records were screened
 
